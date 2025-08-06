@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Week 2 Web Development Assignment</h1>
+        <section>
+            <h3>Use of list</h3>
+            <p>Unordered list(Novels)</p>
+            <ul>
+                <li>Harry Potter</li>
+                <li>Ice age</li>
+                <li>Lords of the rings</li>
+            </ul>
+            <p>Ordered list</p>
+            <ol>
+                <li>Alpha</li>
+                <li>Beta</li>
+                <li>Charlie</li>
+                <li>Delta</li>
+            </ol>
+        </section>
+        <section>
+            <h3>Tables</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td>S/N</td>
+                        <td>First name</td>
+                        <td>Last name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Steve</td>
+                        <td>Moore</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Charles</td>
+                        <td>Dickens</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Rita</td>
+                        <td>Joseph</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3>Audio and video listing</h3>
+            <audio controls>
+                <source src="Ayox-Ft-Otega-Pray-For-Me.MP3" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+            <audio controls>
+                <source src="Ayox-Ft-Otega-Pray-For-Me.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br>
+            <video width="500" height="300" controls>
+               <source src="https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4" type="video/mp4">
+               Your browser does not support this video format.
+            </video>
+        </section>
+        <section>
+            <form action="">
+                <fieldset>
+                    <Legend>Sign up</Legend>
+                    <label for="first-name:">First Name</label>
+                    <input type="text" name="firsr-name" id="first-name" placeholder="Enter your first name" autocomplete="on">
+                    <br><br>
+                    <label for="name:">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" autocomplete="on">
+                    <br><br>
+                    <label for="cohort">Cohort</label>
+                    <input type="text" name="cohort" id="cohort" value="Cohort 6" readonly>
+                    <br><br>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob">
+                    <br><br>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" id="gender">Male
+                    <input type="radio" name="gender" id="gender">Female
+                    <br><br>
+                    <label for="email:">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter your name" autocomplete="on" required>
+                    <br><br>
+                    <label for="tel">Phone</label>
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]" autocomplete="on">
+                    <br><br>
+                    <label for="pword">Password</label>
+                    <input type="password" name="pword" id="pword" minlength="6" required>
+                    <br><br>
+                    <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+                    <br><br>
+                    <input type="submit" value="submit">
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
